@@ -10,7 +10,8 @@ public class program
     private static readonly IDal s_dal = new Dal.DalList();
     public static void Main()
     {
-        try {
+        try
+        {
             Initalization.initialize(s_dal);
             Console.WriteLine("Data initialization completed.");
         }
@@ -28,32 +29,33 @@ public class program
             Console.WriteLine("3.  Sale DAL");
             Console.WriteLine("4. Exit");
             num = int.Parse(Console.ReadLine()!);
-        
+
             switch (num)
-        {
-            case 1:
-                CRUDcustomer(s_dal.Customer);
-                break;
-            case 2:
-                CRUDproduct(s_dal.Product);
-                break;
-            case 3:
-               CRUDsale(s_dal.Sale);
-                break;
-            case 4:
-                Console.WriteLine("Exiting the program.");
-                break;
-            default:
-                Console.WriteLine("Invalid choice. Please try again.");
-                break;
-        }
+            {
+                case 1:
+                    CRUDcustomer(s_dal.Customer);
+                    break;
+                case 2:
+                    CRUDproduct(s_dal.Product);
+                    break;
+                case 3:
+                    CRUDsale(s_dal.Sale);
+                    break;
+                case 4:
+                    Console.WriteLine("Exiting the program.");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+            }
         } while (num != 4);
 
     }
     private static void CRUDcustomer(ICrud<Customer> customer)
     {
         int num = showMenu();
-        switch (num) {
+        switch (num)
+        {
             case 1:
                 customer.Create(detailsCustomer());
                 break;
@@ -73,6 +75,9 @@ public class program
                 }
                 break;
             case 6:
+                Console.WriteLine(customer.Read(c => c.CustName == "Tamar"));
+                break;
+            case 7:
                 Console.WriteLine("Returning to main menu.");
                 break;
             default:
@@ -104,6 +109,9 @@ public class program
                 }
                 break;
             case 6:
+                Console.WriteLine(product.Read(p => p.ProdName == "Puma"));
+                break;
+            case 7:
                 Console.WriteLine("Returning to main menu.");
                 break;
             default:
@@ -135,6 +143,10 @@ public class program
                 }
                 break;
             case 6:
+                Console.WriteLine(sale.Read(s => s.SalePrice == 150));
+                break;
+
+            case 7:
                 Console.WriteLine("Returning to main menu.");
                 break;
             default:
@@ -142,7 +154,7 @@ public class program
                 break;
         }
     }
-    private static Customer detailsCustomer(int id =0)
+    private static Customer detailsCustomer(int id = 0)
     {
         Console.WriteLine("Please enter the customer details: ");
         Console.WriteLine("Name: ");
@@ -164,7 +176,7 @@ public class program
         double price = double.Parse(Console.ReadLine()!);
         Console.WriteLine("Quantity in stock:  ");
         int quantity = int.Parse(Console.ReadLine()!);
-        return new Product(id, name,category, price,quantity);
+        return new Product(id, name, category, price, quantity);
     }
     private static Sale detailsSale(int id = 0)
     {
@@ -183,7 +195,7 @@ public class program
         Console.WriteLine("end date (yyyy-MM-dd) or leave empty: ");
         string endDateInput = Console.ReadLine()!;
         DateTime? endDate = string.IsNullOrWhiteSpace(endDateInput) ? DateTime.Now : DateTime.Parse(endDateInput);
-        return new Sale(id,  productId, quantity, pricePerUnit, isDelivered, startDate, endDate);
+        return new Sale(id, productId, quantity, pricePerUnit, isDelivered, startDate, endDate);
     }
     private static int getId()
     {
@@ -191,7 +203,7 @@ public class program
         int id = int.Parse(Console.ReadLine()!);
         return id;
     }
-   
+
     private static int showMenu()
     {
         int num = 0;
@@ -204,10 +216,11 @@ public class program
             Console.WriteLine("3.  Update ");
             Console.WriteLine("4.  Delete ");
             Console.WriteLine("5.  ReadAll ");
-            Console.WriteLine("6.  Back");
+            Console.WriteLine("6.  Read with filter");
+            Console.WriteLine("7.  Back");
             num = int.Parse(Console.ReadLine()!);
-        } while (num > 6);
+        } while (num > 7);
 
-            return num;
+        return num;
     }
 }

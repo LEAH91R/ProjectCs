@@ -15,7 +15,7 @@ private static void createSale(ISale si)
         si.Create(new Sale ( 3, 3, 150, 1.5, true, null, null ));
         si.Create(new Sale ( 4, 4, 300, 3.0, false, null, null ));
         si.Create (new Sale ( 5, 5, 250, 2.5, true, null, null ));
-        si.Create (new Sale ( 6, 6, 120, 1.2, false, null, null ));
+        si.Create (new Sale ( 6, 6, 120, 150, false, null, null ));
         si.Create (new Sale ( 7, 7, 180, 1.8, true, null, null ));
         si.Create (new Sale ( 8, 8, 220, 2.2, false, null, null ));
 
