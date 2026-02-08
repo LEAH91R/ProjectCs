@@ -16,7 +16,7 @@ public class IdNotFoundException : Exception
 [Serializable]
 public class NullItemException : Exception
 {
-    public NullItemException(string message) : base($"This Id  Null Item {message}!") { }
+    public NullItemException(string message) : base($"This Null Item {message}!") { }
 }
 
 

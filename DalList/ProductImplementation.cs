@@ -27,9 +27,23 @@ internal class ProductImplementation : IProduct
             throw new IdNotFoundException($"{id}");
         return product;
     }
-
-    public List<Product?> ReadAll()
+    public Product? Read(Func<Product, bool> filter)
     {
+        var product = products.FirstOrDefault(p => filter(p));
+        if (product == null)
+            throw new NullItemException("product");
+        return product;
+    }
+    public List<Product?> ReadAll(Func<Product?,bool>filter=null)
+    {
+        if (filter != null)
+        {
+            var list =
+                       from p in products
+                       where filter(p)
+                       select p;
+                     return list.ToList();
+        }
         return products.ToList();
     }
 

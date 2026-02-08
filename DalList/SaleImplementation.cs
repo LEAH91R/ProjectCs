@@ -23,17 +23,29 @@ namespace DalList
 
         public Sale? Read(int id)
         {
-            // method-syntax LINQ: returns first matching sale or null
+           
             var sale = sales.FirstOrDefault(s => s?.SaleId == id);
 
             if (sale == null)
                 throw new IdNotFoundException($"{id}");
             return sale;
         }
-
-        public List<Sale?> ReadAll()
+        public Sale? Read(Func<Sale, bool> filter)
         {
-            // Enumerable.ToList to return a copy
+            var sale = sales.FirstOrDefault(s => filter(s));
+            if (sale == null)
+                throw new NullItemException("sale");
+            return sale;
+        }
+        public List<Sale?> ReadAll(Func<Sale?, bool> filter = null)
+        {if (filter != null)
+            {
+                var list =
+                        from s in sales
+                        where filter(s)
+                        select s;
+                    return list.ToList();
+            }
             return sales.ToList();
         }
 
@@ -42,7 +54,7 @@ namespace DalList
             if (item == null)
                 throw new NullItemException("Sale cannot be null.");
 
-            // find index with LINQ (Select with index) and replace in-place to preserve order
+        
             var entry = sales
                 .Select((s, i) => new { Sale = s, Index = i })
                 .FirstOrDefault(x => x.Sale?.SaleId == item.SaleId);
@@ -59,7 +71,7 @@ namespace DalList
 
         public void Delete(int id)
         {
-            // use List.RemoveAll with predicate (concise) — returns number of removed items
+
             var removedCount = sales.RemoveAll(s => s?.SaleId == id);
             if (removedCount == 0)
                 throw new NullItemException("");

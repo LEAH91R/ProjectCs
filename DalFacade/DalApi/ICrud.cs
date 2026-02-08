@@ -8,7 +8,8 @@ namespace DalApi
     {
         int Create(T t);
         T? Read(int id);
-        List<T?> ReadAll();
+        T? Read(Func<T, bool> filter);
+        List<T?> ReadAll(Func<T, bool>? filter = null);
         void Update(T t);
         void Delete(int id);
     }

@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalTest\\DalTest.csproj",
+      "projectUniqueName": "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalTest\\DalTest.csproj",
       "projectName": "DalTest",
-      "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalTest\\DalTest.csproj",
+      "projectPath": "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalTest\\DalTest.csproj",
       "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-      "outputPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalTest\\obj\\",
+      "outputPath": "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,18 +70,19 @@
         "net8.0"
       ],
       "sources": {
-        "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalFacade\\DalFacade.csproj"
+            "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalFacade\\DalFacade.csproj"
             },
-            "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalList\\DalList.csproj": {
-              "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalList\\DalList.csproj"
+            "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalList\\DalList.csproj": {
+              "projectPath": "Z:\\יד תשפו\\רותן תמר\\c#\\ProjectCs\\DalList\\DalList.csproj"
             }
           }
         }
@@ -96,7 +97,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -117,7 +118,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
