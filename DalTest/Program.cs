@@ -1,8 +1,7 @@
-﻿using Dal;
+﻿
 using DalApi;
 using DO;
-using System;
-using DalList;
+
 
 namespace DalTest;
 public class program
