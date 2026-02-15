@@ -1,16 +1,18 @@
-﻿//למימוש עם linq
+﻿
 using DalApi;
 using DO;
 using Dal;
 using static Dal.DataSource;
 using System.Linq;
-
+using System.Reflection;
+using Tools;
 namespace DalList;
 
 internal class ProductImplementation : IProduct
 {
     public int Create(Product item)
     {
+        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start create");
         if (products.Any(p => item.ProdId == p?.ProdId))
             throw new IdAlreadyExistsException($"{item.ProdId}");
 
@@ -34,15 +36,18 @@ internal class ProductImplementation : IProduct
             throw new NullItemException("product");
         return product;
     }
-    public List<Product?> ReadAll(Func<Product?,bool>filter=null)
+
+    public List<Product?> ReadAll(Func<Product?, bool> filter = null)
     {
         if (filter != null)
         {
-            var list =
-                       from p in products
-                       where filter(p)
-                       select p;
-                     return list.ToList();
+            var list=from p in products
+                     where filter(p)
+                     select p ;
+            return list.ToList ();
+               
+
+   
         }
         return products.ToList();
     }

@@ -16,7 +16,11 @@ public class IdNotFoundException : Exception
 [Serializable]
 public class NullItemException : Exception
 {
+<<<<<<< HEAD
+    public NullItemException(string message) : base($"This  Null Item {message}!") { }
+=======
     public NullItemException(string message) : base($"This Null Item {message}!") { }
+>>>>>>> d46e9f8b71c4a2a8f0d2c4a4f8c4cea0a668c973
 }
 
 

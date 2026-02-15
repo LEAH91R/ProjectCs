@@ -1,10 +1,10 @@
-﻿//למימוש עם linq
+﻿
 using DalApi;
 using DO;
 using Dal;
 using static Dal.DataSource;
 using System.Linq;
-
+using System.Reflection;
 namespace DalList
 {
     internal class SaleImplementation : ISale
@@ -31,6 +31,25 @@ namespace DalList
             return sale;
         }
         public Sale? Read(Func<Sale, bool> filter)
+
+        {
+            var sale = sales.FirstOrDefault(s => filter(s));
+            if (sale == null)
+                throw new NullItemException("Sale");
+            return sale;
+        }
+        public List<Sale?> ReadAll(Func<Sale?, bool> filter = null)
+        {
+            // Enumerable.ToList to return a copy
+            if(filter != null) { 
+            var list = 
+                from s in sales
+                where filter(s)
+                select s ;
+                              
+         
+            return list.ToList();
+
         {
             var sale = sales.FirstOrDefault(s => filter(s));
             if (sale == null)
@@ -45,9 +64,10 @@ namespace DalList
                         where filter(s)
                         select s;
                     return list.ToList();
+>>>>>>> d46e9f8b71c4a2a8f0d2c4a4f8c4cea0a668c973
             }
             return sales.ToList();
-        }
+       }
 
         public void Update(Sale item)
         {

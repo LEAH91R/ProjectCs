@@ -1,7 +1,7 @@
 using DalApi;
 using DO;
 using static Dal.DataSource;
-
+using Tools;
 namespace Dal
 {
     internal class SaleImplementation : ISale

@@ -5,7 +5,9 @@
     "\\DalFacade\\DalApi",
     "\\DalFacade\\DO",
     "\\DalList",
-    "\\DalTest"
+    "\\DalTest",
+    "\\Tools"
   ],
+  "SelectedNode": "\\Tools\\LogManager.cs",
   "PreviewInSolutionExplorer": false
 }
