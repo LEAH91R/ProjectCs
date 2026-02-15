@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "PoEDRxCq+MA=",
+  "dgSpecHash": "h/nrGS1+Ofo=",
   "success": true,
-  "projectFilePath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalFacade\\DalFacade.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.308\\microsoft.net.sdk.compilers.toolset.9.0.308.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalFacade\\DalFacade.csproj",
+      "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj",
       "projectName": "DalFacade",
-      "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalFacade\\DalFacade.csproj",
+      "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj",
       "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-      "outputPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\Project\\git\\ProjectCs\\DalFacade\\obj\\",
+      "outputPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -68,12 +68,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.308, 9.0.308]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

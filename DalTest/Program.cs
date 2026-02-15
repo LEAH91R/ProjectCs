@@ -1,6 +1,7 @@
 ﻿
 using DalApi;
 using DO;
+using Tools;
 
 
 namespace DalTest;
@@ -26,7 +27,8 @@ public class program
             Console.WriteLine("1.  Customer DAL");
             Console.WriteLine("2.  Product DAL");
             Console.WriteLine("3.  Sale DAL");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. delete old log");
+            Console.WriteLine("5. Exit");
             num = int.Parse(Console.ReadLine()!);
 
             switch (num)
@@ -41,6 +43,9 @@ public class program
                     CRUDsale(s_dal.Sale);
                     break;
                 case 4:
+                    LogManager.DeleteOldLogs();
+                    break;
+                case 5:
                     Console.WriteLine("Exiting the program.");
                     break;
                 default:
@@ -143,7 +148,7 @@ public class program
                 break;
             case 6:
                 Console.WriteLine(sale.Read(s => s.SalePrice == 150));
-
+                break;
             case 7:
                 Console.WriteLine("Returning to main menu.");
 
@@ -217,9 +222,9 @@ public class program
             Console.WriteLine("5.  ReadAll ");
             Console.WriteLine("6.  Read with filter");
             Console.WriteLine("7.  Back");
-            Console.WriteLine("8.  Delete the log");
+      
             num = int.Parse(Console.ReadLine()!);
-        } while (num > 8);
+        } while (num >7);
 
         return num;
     }
