@@ -55,3 +55,20 @@ Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalTest\obj\Debug\refint\DalTest.d
 Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalTest\obj\Debug\DalTest.pdb
 Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalTest\obj\Debug\ref\DalTest.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\bin\DalTest.exe
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\bin\DalTest.deps.json
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\bin\DalTest.runtimeconfig.json
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\bin\DalTest.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\bin\DalTest.pdb
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.sourcelink.json
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.csproj.Up2Date
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\refint\DalTest.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.pdb
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalTest\obj\Debug\ref\DalTest.dll

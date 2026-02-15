@@ -46,3 +46,12 @@ Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalList\obj\Debug\DalList.dll
 Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalList\obj\Debug\refint\DalList.dll
 Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalList\obj\Debug\DalList.pdb
 Z:\יד תשפו\רותן תמר\c#\ProjectCs\DalList\obj\Debug\ref\DalList.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.sourcelink.json
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\refint\DalList.dll
+Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.pdb
