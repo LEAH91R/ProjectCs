@@ -143,15 +143,10 @@ public class program
                 break;
             case 6:
                 Console.WriteLine(sale.Read(s => s.SalePrice == 150));
-                break;
-<<<<<<< HEAD
-                
-            case 7:Console.WriteLine("Returning to main menu.");
-=======
 
             case 7:
                 Console.WriteLine("Returning to main menu.");
->>>>>>> d46e9f8b71c4a2a8f0d2c4a4f8c4cea0a668c973
+
                 break;
             default:
                 Console.WriteLine("Invalid choice. Please try again.");
