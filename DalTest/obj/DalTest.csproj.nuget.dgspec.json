@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj",
+        "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,8 +25,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.300"
       },
@@ -61,41 +60,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalList\\DalList.csproj": {
+    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalList\\DalList.csproj",
+        "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalList\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,19 +90,15 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj"
-              },
-              "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj": {
-                "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj"
+              "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -134,7 +111,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.300"
       },
@@ -152,41 +129,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalTest\\DalTest.csproj",
+        "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalTest\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -200,22 +159,18 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj"
               },
-              "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalList\\DalList.csproj": {
-                "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\DalList\\DalList.csproj"
-              },
-              "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj": {
-                "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj"
+              "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj"
               }
             }
           }
@@ -228,7 +183,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.300"
       },
@@ -246,51 +201,13 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj": {
-      "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj",
-        "projectName": "Tools",
-        "projectPath": "Z:\\יד תשפו\\הלוי דבורה\\c#-רחלי כהן\\New folder\\ProjectCs\\Tools\\Tools.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }

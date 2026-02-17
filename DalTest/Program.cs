@@ -1,5 +1,4 @@
-﻿
-using DalApi;
+﻿using DalApi;
 using DO;
 using Tools;
 
@@ -29,7 +28,14 @@ public class program
             Console.WriteLine("3.  Sale DAL");
             Console.WriteLine("4. delete old log");
             Console.WriteLine("5. Exit");
-            num = int.Parse(Console.ReadLine()!);
+
+            // safer parse
+            var input = Console.ReadLine();
+            if (!int.TryParse(input, out num))
+            {
+                Console.WriteLine("Invalid input. Please enter a number.");
+                continue;
+            }
 
             switch (num)
             {
@@ -52,7 +58,7 @@ public class program
                     Console.WriteLine("Invalid choice. Please try again.");
                     break;
             }
-        } while (num != 4);
+        } while (num != 5);
 
     }
     private static void CRUDcustomer(ICrud<Customer> customer)
@@ -204,7 +210,11 @@ public class program
     private static int getId()
     {
         Console.WriteLine("Please enter the ID: ");
-        int id = int.Parse(Console.ReadLine()!);
+        int id;
+        while (!int.TryParse(Console.ReadLine(), out id))
+        {
+            Console.WriteLine("Invalid ID. Please enter a valid integer:");
+        }
         return id;
     }
 
@@ -222,9 +232,15 @@ public class program
             Console.WriteLine("5.  ReadAll ");
             Console.WriteLine("6.  Read with filter");
             Console.WriteLine("7.  Back");
-      
-            num = int.Parse(Console.ReadLine()!);
-        } while (num >7);
+
+            var input = Console.ReadLine();
+            if (!int.TryParse(input, out num))
+            {
+                Console.WriteLine("Invalid input. Enter number 1-7.");
+                num = 0;
+                continue;
+            }
+        } while (num < 1 || num > 7);
 
         return num;
     }

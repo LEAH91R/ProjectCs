@@ -55,3 +55,16 @@ Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\Dal
 Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.dll
 Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\refint\DalList.dll
 Z:\יד תשפו\הלוי דבורה\c#-רחלי כהן\New folder\ProjectCs\DalList\obj\Debug\DalList.pdb
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.dll
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\refint\DalList.dll
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.pdb
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\bin\DalList.deps.json
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\bin\DalList.dll
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\bin\DalList.pdb
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalList\obj\Debug\ref\DalList.dll

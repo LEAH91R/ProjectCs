@@ -1,10 +1,13 @@
-﻿
-using DalApi;
+﻿using DalApi;
 using DO;
 using Dal;
 using static Dal.DataSource;
 using System.Linq;
 using System.Reflection;
+using Tools;
+using System.Collections.Generic;
+using System;
+
 namespace DalList
 {
     internal class SaleImplementation : ISale
@@ -12,7 +15,13 @@ namespace DalList
         public int Create(Sale item)
         {
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start create");
-            if (sales.Any(s => item.SaleId == s?.SaleId))
+            if (item == null)
+            {
+                LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception create");
+                throw new NullItemException("Sale");
+            }
+
+            if (sales.Any(s => s?.SaleId == item.SaleId))
             {
                 LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception create");
                 throw new IdAlreadyExistsException($"{item.SaleId}");
@@ -38,66 +47,53 @@ namespace DalList
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish read");
             return sale;
         }
-        public Sale? Read(Func<Sale, bool> filter)
 
+        public Sale? Read(Func<Sale, bool> filter)
         {
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start read filter");
-            var sale = sales.FirstOrDefault(s => filter(s));
+            if (filter == null) throw new NullItemException("filter");
+            var sale = sales.FirstOrDefault(s => s != null && filter(s));
             if (sale == null)
             {
                 LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception read filter");
-                throw new NullItemException("Sale");
+                throw new IdNotFoundException("Sale");
             }
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish read filter");
             return sale;
         }
-        public List<Sale?> ReadAll(Func<Sale?, bool> filter = null)
+
+        public List<Sale?> ReadAll(Func<Sale?, bool>? filter = null)
         {
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start readAll");
-            if (filter != null) { 
-            var list = 
-                from s in sales
-                where filter(s)
-                select s ;
-                              
-            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish readAll");
-                return list.ToList();
+            IEnumerable<Sale?> query = sales;
+            if (filter != null)
+                query = query.Where(s => filter(s));
 
-        {
-            var sale = sales.FirstOrDefault(s => filter(s));
-            if (sale == null) {
-                        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception readAll");
-                        throw new NullItemException("sale");
-            return sale;
+            var list = query.ToList();
+            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish readAll");
+            return list;
         }
-       
-       }
 
         public void Update(Sale item)
         {
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start update");
 
-            if (item == null) {
-                LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception update");
-
-                throw new NullItemException("Sale cannot be null.");
-
-        
-            var entry = sales
-                .Select((s, i) => new { Sale = s, Index = i })
-                .FirstOrDefault(x => x.Sale?.SaleId == item.SaleId);
-
-            if (entry != null)
+            if (item == null)
             {
-            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish update");
+                LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception update");
+                throw new NullItemException("Sale cannot be null.");
+            }
 
-                    sales[entry.Index] = item;
+            var index = sales.FindIndex(s => s?.SaleId == item.SaleId);
+            if (index >= 0)
+            {
+                sales[index] = item;
+                LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish update");
             }
             else
             {
-                    LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception update");
-
-                    throw new IdNotFoundException($"{item.SaleId}");
+                LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception update");
+                throw new IdNotFoundException($"{item.SaleId}");
             }
         }
 
@@ -106,90 +102,12 @@ namespace DalList
             LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "start delete");
 
             var removedCount = sales.RemoveAll(s => s?.SaleId == id);
-            if (removedCount == 0) {
+            if (removedCount == 0)
+            {
                 LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "exception delete");
-
-                throw new NullItemException("");
-            } 
+                throw new IdNotFoundException($"{id}");
+            }
         }
-
     }
 }
-
-
-//using DalApi;
-//using DO;
-//using Dal;
-//using static Dal.DataSource;
-
-//namespace DalList
-//{
-//    internal class SaleImplementation :ISale
-//    {
-
-
-//        public int Create(Sale item)
-//        {
-//            foreach (var c in sales)
-//            {
-//                if (item.SaleId == c?.SaleId)
-//                    throw new Exception("this id existing!");
-//            }
-//            int id = Config.getStaticValueSale;
-//            Sale sale = item with { SaleId = id };
-//            sales.Add(sale);
-//            return id;
-//        }
-
-//        public Sale? Read(int id)
-//        {
-//            foreach (var c in sales)
-//            {
-//                if (id == c?.SaleId)
-//                    return c;
-//            }
-//            throw new NotImplementedException("not existing!");
-//        }
-
-//        public List<Sale?> ReadAll()
-//        {
-//            return sales;
-//        }
-
-//        public void Update(Sale item)
-//        {
-//            bool f = false;
-//            if (item == null)
-//                throw new Exception("Product  cannot be null.");
-//            foreach (var c in sales)
-//            {
-//                if (item.SaleId == c?.SaleId)
-//                {
-//                    f=true;
-//                    Delete(item.SaleId);
-//                    sales.Add(item);
-//                    return;
-//                }    
-//            }
-//            if (!f)
-//            {
-//                throw new Exception("not id existing!");
-//            }
-
-//        }
-
-//        public void Delete(int id)
-//        {
-//            foreach (var c in sales)
-//            {
-//                if (id == c?.SaleId)
-//                {
-//                    sales.Remove(c);
-//                    return;
-//                }
-//            }
-//            throw new NotImplementedException();
-//        }
-//    }
-//}
 
