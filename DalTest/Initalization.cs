@@ -51,10 +51,10 @@ private static void createCustomer(ICustomer ci)
         pi.Create(new Product(8, "Renuar", Categories.SHIRTS, 180, 40));
         pi.Create(new Product(9, "Zara", Categories.DRESSES, 400, 10));
     }
-public static void initialize(IDal dal)
+public static void initialize()
 {
-    s_dal = dal;
-    createSale(s_dal.Sale);
+        s_dal = DalApi.Factory.Get;
+        createSale(s_dal.Sale);
     createCustomer(s_dal.Customer);
     createProduct(s_dal.Product);
 }

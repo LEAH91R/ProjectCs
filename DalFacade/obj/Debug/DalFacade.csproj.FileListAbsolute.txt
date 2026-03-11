@@ -65,3 +65,15 @@ C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\bin\DalFacade.deps.json
 C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\bin\DalFacade.dll
 C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\bin\DalFacade.pdb
 C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\bin\DalFacade.deps.json
+C:\Users\huser\Documents\GitHub\ProjectCs\bin\DalFacade.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\bin\DalFacade.pdb
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\huser\Documents\GitHub\ProjectCs\DalFacade\obj\Debug\ref\DalFacade.dll

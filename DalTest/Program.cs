@@ -6,12 +6,12 @@ using Tools;
 namespace DalTest;
 public class program
 {
-    private static readonly IDal s_dal = new Dal.DalList();
+    private static readonly IDal s_dal = DalApi.Factory.Get;
     public static void Main()
     {
         try
         {
-            Initalization.initialize(s_dal);
+            Initalization.initialize();
             Console.WriteLine("Data initialization completed.");
         }
         catch (Exception ex)

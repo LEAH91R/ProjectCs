@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj",
+        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj": {
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj",
+        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj",
+        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,11 +166,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
               },
-              "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj": {
-                "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj"
+              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj"
               }
             }
           }

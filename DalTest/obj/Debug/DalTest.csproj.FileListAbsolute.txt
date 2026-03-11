@@ -88,3 +88,12 @@ C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalTest\obj\Debug\refint\
 C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalTest\obj\Debug\DalTest.pdb
 C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\huser\Downloads\ProjectCs-main\ProjectCs-main\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\huser\Documents\GitHub\ProjectCs\DalTest\obj\Debug\DalTest.pdb
