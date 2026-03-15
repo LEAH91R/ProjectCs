@@ -1,14 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GBlqV/O1T64=",
+  "dgSpecHash": "bqVBat3SPopXsHydH/VxnKJyTBHyUFxvJrlhfbSDtYXf4pnEBlFLGSKrwI86flYZ+xlXZUB+hYJjd27r1sgKow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\huser\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.308\\microsoft.net.sdk.compilers.toolset.9.0.308.nupkg.sha512",
-    "C:\\Users\\huser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

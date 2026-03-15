@@ -11,5 +11,10 @@
     <Folder Include="BlImplementation\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DalFacade\DalFacade.csproj" />
+    <ProjectReference Include="..\DalList\DalList.csproj" />
+  </ItemGroup>
+
 </Project>
 
