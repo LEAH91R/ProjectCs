@@ -12,6 +12,7 @@ namespace BL.BO
         public Categories Category { get; set; }
         public double ProdPrice { get; set; }
         public int QuantityInStock { get; set; }
+        public <SaleInProduct> ListSaleInProduct { get; set; }
 
         public override string ToString() => base.ToString();
     }

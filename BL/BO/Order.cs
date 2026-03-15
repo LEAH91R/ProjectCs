@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BL.BO
 {
-    class Order
+     public class Order
     {
+        public bool IsClub { get; set; }
+        public ProductInOrder AllProductInOrder { get; set; }
+        public double AllPrice { get; set; }
     }
 }
