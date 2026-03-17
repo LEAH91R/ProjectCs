@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<staticValueSale>100</staticValueSale>
+	<staticValueCustomer>1000</staticValueCustomer>
+	<staticValueProduct>10000</staticValueProduct>
+</config>
