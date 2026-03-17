@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {}
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\localadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\localadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,28 +50,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
+    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\localadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\localadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -79,14 +81,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\localadmin\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -106,11 +109,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
