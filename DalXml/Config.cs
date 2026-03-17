@@ -9,7 +9,7 @@ namespace DalXml
     internal static class Config
     {
         private static string FileName = "data-config";
-        internal static int getStaticValueSale { get => ++staticValueSale };
+        internal static int getStaticValueSale { get { return ++staticValueSale; } }
         internal static int getStaticValueCustomer { get => ++staticValueCustomer };
         internal static int getStaticValueProduct { get => ++staticValueProduct };
     } 

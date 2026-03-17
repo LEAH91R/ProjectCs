@@ -9,7 +9,7 @@ namespace BL.BO
      public class Order
     {
         public bool IsClub { get; set; }
-        public ProductInOrder AllProductInOrder { get; set; }
+        public List<ProductInOrder> AllProductInOrder { get; set; }
         public double AllPrice { get; set; }
     }
 }

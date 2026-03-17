@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KtXNO0VPfZw=",
+  "dgSpecHash": "MdmkXHVHtnM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
+  "projectFilePath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\ProjectCs\\DalTest\\DalTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.308\\microsoft.net.sdk.compilers.toolset.9.0.308.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
