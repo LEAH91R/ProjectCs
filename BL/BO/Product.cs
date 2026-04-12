@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace BL.BO
 {       public class Product
     {
+        internal Categories category;
+
         public int ProdId { get; init; }
         public string ProdName { get; set; } = string.Empty;
         public Categories Category { get; set; }

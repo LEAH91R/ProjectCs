@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Dal
 {
-    internal class SaleImplementation
+    internal class SaleImplementation: ISale
     {
         readonly string s_path = @"xml\sales.xml";
 
