@@ -124,14 +124,24 @@ namespace BO
         public static BO.SaleInProduct ConvertSaleToSaleInProduct(this DO.Sale s)
         {
             return new BO.SaleInProduct
-            {
-                ProdId = s.ProdId,
-                QuantityInSale = s.QuantitySale ?? 0,
-                Price = s.SalePrice ?? 0,
-               ForClub = s.IsClub ?? false
-            };
+            (
+                ProdId: s.ProdId,
+                QuantityInSale : s.QuantitySale ?? 0,
+                Price : s.SalePrice ?? 0,
+               ForClub :s.IsClub ?? false
+            );
         }
-    }          
+        public static BO.ProductInOrder ConvertSaleToProductInOrder(this DO.Product s)
+        {
+            return new BO.ProductInOrder
+            (
+                ProdId: s.ProdId,
+                ProdName: s.ProdName,
+                ProdPrice: s.ProdPrice ?? 0,
+                QuantityInOrder: s.QuantityInStock ?? 0
+
+                );
+        }          
  }              
                 
                 
