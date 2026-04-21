@@ -11,6 +11,7 @@ namespace DalXml
     internal static class Config
     {
         private static string FileName = "data-config";
+
         internal static int getStaticValueSale { 
                 get => GetAndIncrement("staticValueSale");
             }

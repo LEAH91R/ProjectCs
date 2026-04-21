@@ -5,8 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using BL.BlApi;
 using BL.BO;
+using DO;
+//using static BO.Tools;
 
-
+//namespace BL.BlImplementation
 namespace Dal
 {
     internal class CustomerImplementation:ICustomer

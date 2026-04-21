@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BL.BO
+namespace BO
 {          public class Sale
         {
             public int SaleId { get; init; }
@@ -15,7 +15,18 @@ namespace BL.BO
             public DateTime StartDate { get; set; }
             public DateTime EndDate { get; set; }
 
-            public override string ToString() => base.ToString();
+        public override string ToString() => this.ToStringProperty();
+
+        public Sale(int SaleId = 0, int ProdId = 0, int QuantitySale = 0, double SalePrice = 0, bool IsClub = false, DateTime? StartDate = null, DateTime? EndDate = null)
+            {
+                this.SaleId = SaleId;
+                this.ProdId = ProdId;
+                this.QuantitySale = QuantitySale;
+                this.SalePrice = SalePrice;
+                this.IsClub = IsClub;
+                this.StartDate = StartDate ?? DateTime.Now;
+                this.EndDate = EndDate ?? DateTime.Now.AddDays(7);
         }
+    }
 }
 
