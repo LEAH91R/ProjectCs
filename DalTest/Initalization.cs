@@ -2,27 +2,27 @@
 using DalApi;
 using Dal;
 
-namespace DalTest; 
+namespace DalTest;
 
 public static class Initalization
 {
     private static IDal? s_dal;
-private static void createSale(ISale si)
-{
+    private static void createSale(ISale si)
+    {
 
-        si.Create(new Sale ( 1, 1, 100, 1.0, true, null, null ));
-        si.Create(new Sale ( 2, 2, 200, 2.0, false, null, null ));
-        si.Create(new Sale ( 3, 3, 150, 1.5, true, null, null ));
-        si.Create(new Sale ( 4, 4, 300, 3.0, false, null, null ));
-        si.Create (new Sale ( 5, 5, 250, 2.5, true, null, null ));
-        si.Create (new Sale ( 6, 6, 120, 150, false, null, null ));
-        si.Create (new Sale ( 7, 7, 180, 1.8, true, null, null ));
-        si.Create (new Sale ( 8, 8, 220, 2.2, false, null, null ));
+        si.Create(new Sale(1, 1, 100, 1.0, true, null, null));
+        si.Create(new Sale(2, 2, 200, 2.0, false, null, null));
+        si.Create(new Sale(3, 3, 150, 1.5, true, null, null));
+        si.Create(new Sale(4, 4, 300, 3.0, false, null, null));
+        si.Create(new Sale(5, 5, 250, 2.5, true, null, null));
+        si.Create(new Sale(6, 6, 120, 150, false, null, null));
+        si.Create(new Sale(7, 7, 180, 1.8, true, null, null));
+        si.Create(new Sale(8, 8, 220, 2.2, false, null, null));
 
 
     }
-private static void createCustomer(ICustomer ci)
-{
+    private static void createCustomer(ICustomer ci)
+    {
 
         ci.Create(new Customer(1, "Tamar", "Herzel 5", "0583295797"));
         ci.Create(new Customer(2, "Shira", "Ben Gurion 10", "05556706410"));
@@ -51,11 +51,14 @@ private static void createCustomer(ICustomer ci)
         pi.Create(new Product(8, "Renuar", Categories.SHIRTS, 180, 40));
         pi.Create(new Product(9, "Zara", Categories.DRESSES, 400, 10));
     }
-public static void initialize()
-{
+    public static void initialize()
+    {
         s_dal = DalApi.Factory.Get;
         createSale(s_dal.Sale);
-    createCustomer(s_dal.Customer);
-    createProduct(s_dal.Product);
+        createCustomer(s_dal.Customer);
+        createProduct(s_dal.Product);
+    }
 }
 }
+
+
