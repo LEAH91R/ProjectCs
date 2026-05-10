@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DalFacade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64426626a0699656d3075cdb62fc1db63abb932c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40c28d52de18a643392ea868d7d6b8e688461bff")]
 [assembly: System.Reflection.AssemblyProductAttribute("DalFacade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DalFacade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

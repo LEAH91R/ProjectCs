@@ -3,6 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|c:\\users\\huser\\documents\\github\\projectcs\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|c:\\users\\huser\\documents\\github\\projectcs\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|c:\\users\\huser\\documents\\github\\projectcs\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|solutionrelative:ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|c:\\users\\huser\\documents\\github\\projectcs\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -212,6 +227,9 @@
     {
       "AbsoluteMoniker": "D:2:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|c:\\users\\huser\\documents\\github\\projectcs\\bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:2:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731042FF-B7DC-4AE1-A7D6-DC659DBCD0B2}|UI\\UI.csproj|c:\\users\\huser\\documents\\github\\projectcs\\ui\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -221,11 +239,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:04:31.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\App.config",
+              "RelativeDocumentMoniker": "UI\\App.config",
+              "ToolTip": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\App.config",
+              "RelativeToolTip": "UI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-10T14:04:26.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UI",
+              "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-10T14:04:15.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.cs [Design]",
+              "RelativeToolTip": "UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:03:58.985Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ICustomer.cs",
@@ -233,12 +301,11 @@
               "RelativeToolTip": "BL\\BlApi\\ICustomer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T14:00:07.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:00:07.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "customers.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\customers.xml",
               "RelativeDocumentMoniker": "xml\\customers.xml",
@@ -246,12 +313,11 @@
               "RelativeToolTip": "xml\\customers.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-17T13:31:00.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:31:00.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IBl.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\IBl.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IBl.cs",
@@ -259,12 +325,11 @@
               "RelativeToolTip": "BL\\BlApi\\IBl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:56:32.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:56:32.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Tools .cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Tools .cs",
               "RelativeDocumentMoniker": "BL\\BO\\Tools .cs",
@@ -272,12 +337,11 @@
               "RelativeToolTip": "BL\\BO\\Tools .cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAAAIUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T14:07:54.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:07:54.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Customer.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Customer.cs",
@@ -285,12 +349,11 @@
               "RelativeToolTip": "BL\\BO\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:41:52.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:41:52.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Order.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
@@ -298,12 +361,11 @@
               "RelativeToolTip": "BL\\BO\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:42:25.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:42:25.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Product.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
@@ -311,12 +373,11 @@
               "RelativeToolTip": "BL\\BO\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:43:23.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:43:23.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductInOrder.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\ProductInOrder.cs",
               "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
@@ -329,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Sale.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
@@ -337,12 +398,11 @@
               "RelativeToolTip": "BL\\BO\\Sale.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:43:43.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:43:43.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SaleInProduct.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\SaleInProduct.cs",
               "RelativeDocumentMoniker": "BL\\BO\\SaleInProduct.cs",
@@ -350,12 +410,11 @@
               "RelativeToolTip": "BL\\BO\\SaleInProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:45:12.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:45:12.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Enums.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
@@ -363,12 +422,11 @@
               "RelativeToolTip": "BL\\BO\\Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:53:25.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:53:25.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Exceptions.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Exceptions.cs",
@@ -376,12 +434,11 @@
               "RelativeToolTip": "BL\\BO\\Exceptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:42:13.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:42:13.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlImplementation\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\CustomerImplementation.cs",
@@ -389,12 +446,11 @@
               "RelativeToolTip": "BL\\BlImplementation\\CustomerImplementation.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:14:14.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T18:14:14.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "LogManager.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\Tools\\LogManager.cs",
               "RelativeDocumentMoniker": "Tools\\LogManager.cs",
@@ -402,12 +458,11 @@
               "RelativeToolTip": "Tools\\LogManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T14:36:10.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T14:36:10.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalXml\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\CustomerImplementation.cs",
@@ -415,12 +470,11 @@
               "RelativeToolTip": "DalXml\\CustomerImplementation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:32:14.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:32:14.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalXml\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
@@ -428,12 +482,11 @@
               "RelativeToolTip": "DalXml\\ProductImplementation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T17:56:01.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T17:56:01.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "DalXml.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalXml\\DalXml.cs",
               "RelativeDocumentMoniker": "DalXml\\DalXml.cs",
@@ -441,12 +494,11 @@
               "RelativeToolTip": "DalXml\\DalXml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:54:42.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:54:42.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalXml\\Config.cs",
               "RelativeDocumentMoniker": "DalXml\\Config.cs",
@@ -454,12 +506,11 @@
               "RelativeToolTip": "DalXml\\Config.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:38:14.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:38:14.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BlTest\\Program.cs",
               "RelativeDocumentMoniker": "BlTest\\Program.cs",
@@ -467,12 +518,11 @@
               "RelativeToolTip": "BlTest\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:51:31.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:51:31.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Customer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Customer.cs",
@@ -480,12 +530,11 @@
               "RelativeToolTip": "DalFacade\\DO\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T15:49:55.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T15:49:55.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlImplementation\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\SaleImplementation.cs",
@@ -493,12 +542,11 @@
               "RelativeToolTip": "BL\\BlImplementation\\SaleImplementation.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:40:31.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T18:40:31.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlImplementation\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
@@ -506,12 +554,11 @@
               "RelativeToolTip": "BL\\BlImplementation\\ProductImplementation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T18:41:21.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T18:41:21.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ISale.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\ISale.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ISale.cs",
@@ -519,12 +566,11 @@
               "RelativeToolTip": "BL\\BlApi\\ISale.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T14:04:27.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:04:27.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "IProduct.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\IProduct.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IProduct.cs",
@@ -532,12 +578,11 @@
               "RelativeToolTip": "BL\\BlApi\\IProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T14:03:56.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:03:56.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "IOrder.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\IOrder.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IOrder.cs",
@@ -545,12 +590,11 @@
               "RelativeToolTip": "BL\\BlApi\\IOrder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T14:03:02.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:03:02.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ICrud.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\ICrud.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ICrud.cs",
@@ -558,12 +602,11 @@
               "RelativeToolTip": "BL\\BlApi\\ICrud.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:58:46.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:58:46.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "BL\\Properties\\AssemblyInfo.cs",
@@ -571,12 +614,11 @@
               "RelativeToolTip": "BL\\Properties\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:29:12.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:29:12.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "dal-config.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\dal-config.xml",
               "RelativeDocumentMoniker": "xml\\dal-config.xml",
@@ -584,12 +626,11 @@
               "RelativeToolTip": "xml\\dal-config.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-11T16:59:00.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T16:59:00.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "data-config.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\data-config.xml",
               "RelativeDocumentMoniker": "xml\\data-config.xml",
@@ -597,12 +638,11 @@
               "RelativeToolTip": "xml\\data-config.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-17T13:31:11.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:31:11.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "DataSource.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DataSource.cs",
               "RelativeDocumentMoniker": "DalList\\DataSource.cs",
@@ -610,12 +650,11 @@
               "RelativeToolTip": "DalList\\DataSource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T16:33:52.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T16:33:52.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\CustomerImplementation.cs",
@@ -627,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "DalList.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.cs",
               "RelativeDocumentMoniker": "DalList\\DalList.cs",
@@ -639,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\Program.cs",
               "RelativeDocumentMoniker": "DalTest\\Program.cs",
@@ -651,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Initalization.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\Initalization.cs",
               "RelativeDocumentMoniker": "DalTest\\Initalization.cs",
@@ -663,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "products.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\products.xml",
               "RelativeDocumentMoniker": "xml\\products.xml",
@@ -671,12 +710,11 @@
               "RelativeToolTip": "xml\\products.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-17T13:31:43.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:31:43.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "sales.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\sales.xml",
               "RelativeDocumentMoniker": "xml\\sales.xml",
@@ -684,12 +722,11 @@
               "RelativeToolTip": "xml\\sales.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-17T13:31:54.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:31:54.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalXml\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\SaleImplementation.cs",
@@ -701,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Sale.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Sale.cs",
@@ -713,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Product.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Product.cs",
@@ -725,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "BL.csproj",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj",
               "RelativeDocumentMoniker": "BL\\BL.csproj",
@@ -738,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\ProductImplementation.cs",
@@ -750,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "DalList.csproj",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
               "RelativeDocumentMoniker": "DalList\\DalList.csproj",
@@ -763,7 +800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "Factory.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\Factory.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\Factory.cs",
@@ -775,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\Config.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\Config.cs",
@@ -787,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "LogManager.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\LogManager.cs",
               "RelativeDocumentMoniker": "DalFacade\\LogManager.cs",
@@ -799,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "DalTest.csproj",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
@@ -812,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ICustomer.cs",
@@ -824,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "ICrud.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\ICrud.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ICrud.cs",
@@ -836,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\SaleImplementation.cs",
@@ -848,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Exceptions.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Exceptions.cs",
@@ -860,19 +897,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Enums.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
               "ToolTip": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Enums.cs",
               "RelativeToolTip": "BL\\BO\\Enums.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:56:04.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T17:56:04.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "SaleImplementation.cs",
@@ -884,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "c",
               "DocumentMoniker": "Z:\\\u05D9\u05D3 \u05EA\u05E9\u05E4\u05D5\\\u05D4\u05DC\u05D5\u05D9 \u05D3\u05D1\u05D5\u05E8\u05D4\\c",
               "ToolTip": "Z:\\\u05D9\u05D3 \u05EA\u05E9\u05E4\u05D5\\\u05D4\u05DC\u05D5\u05D9 \u05D3\u05D1\u05D5\u05E8\u05D4\\c",
