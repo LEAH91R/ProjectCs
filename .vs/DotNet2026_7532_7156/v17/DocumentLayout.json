@@ -3,7 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\customers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|c:\\users\\suser\\documents\\github\\projectcs\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -216,7 +229,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -224,7 +237,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:18:09.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx",
+              "RelativeDocumentMoniker": "UI\\Form1.resx",
+              "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx",
+              "RelativeToolTip": "UI\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-10T14:18:09.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.Designer.cs",
+              "RelativeToolTip": "UI\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:18:09.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.cs",
+              "RelativeToolTip": "UI\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:18:09.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ICustomer.cs",
@@ -236,18 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "customers.xml",
-              "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\customers.xml",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\huser\\Documents\\GitHub\\ProjectCs\\xml\\customers.xml",
-              "ToolTip": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\customers.xml",
-              "RelativeToolTip": "..\\..\\..\\..\\huser\\Documents\\GitHub\\ProjectCs\\xml\\customers.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-17T13:31:00.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "IBl.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\IBl.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IBl.cs",
@@ -259,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Tools .cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Tools .cs",
               "RelativeDocumentMoniker": "BL\\BO\\Tools .cs",
@@ -271,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Customer.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Customer.cs",
@@ -283,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Order.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
@@ -295,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Product.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
@@ -307,20 +358,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductInOrder.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\ProductInOrder.cs",
               "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
               "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\ProductInOrder.cs",
               "RelativeToolTip": "BL\\BO\\ProductInOrder.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T13:44:50.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:44:50.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Sale.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
@@ -332,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SaleInProduct.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\SaleInProduct.cs",
               "RelativeDocumentMoniker": "BL\\BO\\SaleInProduct.cs",
@@ -344,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Enums.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
@@ -356,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Exceptions.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Exceptions.cs",
@@ -368,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlImplementation\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\CustomerImplementation.cs",
@@ -380,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "LogManager.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\Tools\\LogManager.cs",
               "RelativeDocumentMoniker": "Tools\\LogManager.cs",
@@ -392,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalXml\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\CustomerImplementation.cs",
@@ -404,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalXml\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
@@ -416,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "DalXml.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalXml\\DalXml.cs",
               "RelativeDocumentMoniker": "DalXml\\DalXml.cs",
@@ -428,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalXml\\Config.cs",
               "RelativeDocumentMoniker": "DalXml\\Config.cs",
@@ -440,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BlTest\\Program.cs",
               "RelativeDocumentMoniker": "BlTest\\Program.cs",
@@ -452,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Customer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Customer.cs",
@@ -464,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlImplementation\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\SaleImplementation.cs",
@@ -476,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlImplementation\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
@@ -488,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ISale.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\ISale.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ISale.cs",
@@ -500,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "IProduct.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\IProduct.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IProduct.cs",
@@ -512,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "IOrder.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\IOrder.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IOrder.cs",
@@ -524,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ICrud.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BlApi\\ICrud.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ICrud.cs",
@@ -536,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "BL\\Properties\\AssemblyInfo.cs",
@@ -548,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "dal-config.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\dal-config.xml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\huser\\Documents\\GitHub\\ProjectCs\\xml\\dal-config.xml",
@@ -560,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "data-config.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\data-config.xml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\huser\\Documents\\GitHub\\ProjectCs\\xml\\data-config.xml",
@@ -572,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "DataSource.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\DataSource.cs",
               "RelativeDocumentMoniker": "DalList\\DataSource.cs",
@@ -584,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\CustomerImplementation.cs",
@@ -596,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "DalList.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.cs",
               "RelativeDocumentMoniker": "DalList\\DalList.cs",
@@ -608,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalTest\\Program.cs",
               "RelativeDocumentMoniker": "DalTest\\Program.cs",
@@ -620,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Initalization.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalTest\\Initalization.cs",
               "RelativeDocumentMoniker": "DalTest\\Initalization.cs",
@@ -632,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "products.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\products.xml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\huser\\Documents\\GitHub\\ProjectCs\\xml\\products.xml",
@@ -644,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "sales.xml",
               "DocumentMoniker": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\xml\\sales.xml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\huser\\Documents\\GitHub\\ProjectCs\\xml\\sales.xml",
@@ -656,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalXml\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\SaleImplementation.cs",
@@ -668,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Sale.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Sale.cs",
@@ -680,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Product.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Product.cs",
@@ -692,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "BL.csproj",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj",
               "RelativeDocumentMoniker": "BL\\BL.csproj",
@@ -704,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\ProductImplementation.cs",
@@ -716,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "DalList.csproj",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
               "RelativeDocumentMoniker": "DalList\\DalList.csproj",
@@ -728,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "Factory.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\Factory.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\Factory.cs",
@@ -740,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\Config.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\Config.cs",
@@ -752,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "LogManager.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\LogManager.cs",
               "RelativeDocumentMoniker": "DalFacade\\LogManager.cs",
@@ -764,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "DalTest.csproj",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
@@ -776,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ICustomer.cs",
@@ -788,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "ICrud.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalApi\\ICrud.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ICrud.cs",
@@ -800,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\SaleImplementation.cs",
@@ -812,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DO\\Exceptions.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Exceptions.cs",
@@ -824,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\BL\\BO\\Enums.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
@@ -835,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "SaleImplementation.cs",
@@ -847,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "c",
               "DocumentMoniker": "Z:\\\u05D9\u05D3 \u05EA\u05E9\u05E4\u05D5\\\u05D4\u05DC\u05D5\u05D9 \u05D3\u05D1\u05D5\u05E8\u05D4\\c",
               "ToolTip": "Z:\\\u05D9\u05D3 \u05EA\u05E9\u05E4\u05D5\\\u05D4\u05DC\u05D5\u05D9 \u05D3\u05D1\u05D5\u05E8\u05D4\\c",
