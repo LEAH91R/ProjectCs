@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
-        "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\obj\\",
+        "projectUniqueName": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\לאה הצדיקה\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\לאה הצדיקה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,81 @@
           "net8.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
+              },
+              "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
+        "projectName": "DalFacade",
+        "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\לאה הצדיקה\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\לאה הצדיקה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +118,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +139,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
+    "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\לאה הצדיקה\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\לאה הצדיקה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,15 +164,16 @@
           "net8.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -113,7 +188,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -134,24 +209,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalTest\\obj\\",
+        "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\לאה הצדיקה\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\לאה הצדיקה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -159,18 +234,22 @@
           "net8.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\BL\\BL.csproj"
               },
-              "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
-                "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj"
+              "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
+              },
+              "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\לאה הצדיקה\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj"
               }
             }
           }
@@ -185,7 +264,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -206,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3,8 +3,8 @@ using DalApi;
 using static Dal.DataSource;
 using Tools;
 using System.Reflection;
-using System.Collections.Generic;
-using System.Linq;
+using BO;
+using BL.BO;
 
 namespace Dal;
 

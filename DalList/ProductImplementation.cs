@@ -7,6 +7,8 @@ using System.Linq;
 using System.Reflection;
 using Tools;
 namespace DalList;
+using BO;
+using BL.BO;
 
 internal class ProductImplementation : IProduct
 {

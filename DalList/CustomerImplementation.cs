@@ -5,6 +5,8 @@ using static Dal.DataSource;
 using System.Linq;
 using System.Reflection;
 using Tools;
+using BO;
+using BL.BO;
 
 namespace Dal
 {

@@ -126,9 +126,9 @@ namespace BO
             return new BO.SaleInProduct
             (
                 ProdId: s.ProdId,
-                QuantityInSale : s.QuantitySale ?? 0,
-                Price : s.SalePrice ?? 0,
-               ForClub :s.IsClub ?? false
+                QuantityInSale: s.QuantitySale ?? 0,
+                Price: s.SalePrice ?? 0,
+               ForClub: s.IsClub ?? false
             );
         }
         public static BO.ProductInOrder ConvertSaleToProductInOrder(this DO.Product s)
@@ -141,7 +141,8 @@ namespace BO
                 QuantityInOrder: s.QuantityInStock ?? 0
 
                 );
-        }          
- }              
+        }
+    }
+}              
                 
                 

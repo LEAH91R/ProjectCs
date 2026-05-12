@@ -1,6 +1,5 @@
-﻿
-
-using BL.BlApi;
+﻿using BL.BlApi;
+using BO;
 
 namespace BL.BlImplementation;
 

@@ -1,7 +1,7 @@
 ﻿using BL.BlApi;
 using DalApi;
 using System;
-using BO = BL.BO;
+using BL;
 
 namespace BlTest
 {

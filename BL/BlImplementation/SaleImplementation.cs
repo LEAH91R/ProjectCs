@@ -1,27 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DalXml;
-using DO;
-using System.Xml.Linq;
-
-namespace Dal
-{
-    internal class SaleImplementation: ISale
-    {
-        כדי להתקדם במימוש ה-CRUD עבור כל הישויות, בואו נבנה את התשתית בצורה מסודרת.כפי שביקשתן, נממש את הפעולות בעזרת שתי השיטות(Serializer ו-Linq to XML).
-
-הכנתי לכן כאן את המימוש המלא עבור שתי ישויות מרכזיות, כך שתוכלו להעתיק ולשנות את השאר לפי אותו דגם.
-
-1. מימוש ישות ה-Sale (בשיטת XmlSerializer)
-זו השיטה המומלצת לרוב הישויות כי היא הכי פשוטה לתחזוקה.
-
-C#
-
+﻿//using DO;
 using DalApi;
-using DO;
+using BO;
+
 
 namespace Dal;
 
