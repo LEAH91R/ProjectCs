@@ -1,14 +1,14 @@
 ﻿using DO;
 using DalApi;
 using static Dal.DataSource;
-using tools;
+using Tools;
 using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Dal;
 
-internal class OrderImplementation : IOrder
+internal class OrderImplementation : SaleInProduct
 {
     public int Create(Order item)
     {
@@ -16,8 +16,8 @@ internal class OrderImplementation : IOrder
             MethodBase.GetCurrentMethod().Name, $"Attempting to create order for customer ID: {item.CustomerId}");
 
         // יצירת מזהה רץ אוטומטי להזמנה
-        Order finalizedItem = item with { Id = Config.OrderId };
-        DataSource.Orders.Add(finalizedItem);
+        Order finalizedItem = item with { Id = Config.getStaticValueProduct };
+        DataSource.SaleInProduct.Add(finalizedItem);
 
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, $"Order created successfully. New ID: {finalizedItem.Id}");
@@ -30,7 +30,7 @@ internal class OrderImplementation : IOrder
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, $"Reading order with ID: {id}");
 
-        var order = DataSource.Orders.FirstOrDefault(o => o?.Id == id);
+        var order = DataSource.SaleInProduct.FirstOrDefault(o => o?.Id == id);
 
         if (order == null)
             LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
@@ -44,7 +44,7 @@ internal class OrderImplementation : IOrder
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, "Reading order using filter.");
 
-        return DataSource.Orders.FirstOrDefault(o => o != null && filter(o));
+        return DataSource.SaleInProduct.FirstOrDefault(o => o != null && filter(o));
     }
 
     public List<Order?> ReadAll(Func<Order, bool>? filter = null)
@@ -54,7 +54,7 @@ internal class OrderImplementation : IOrder
 
         if (filter == null)
         {
-            return DataSource.Orders.Select(o => o == null ? null : new Order
+            return DataSource.SaleInProduct.Select(o => o == null ? null : new Order
             {
                 Id = o.Id,
                 CustomerId = o.CustomerId,
@@ -63,7 +63,7 @@ internal class OrderImplementation : IOrder
             }).ToList();
         }
 
-        return DataSource.Orders
+        return DataSource.SaleInProduct
             .Where(o => o != null && filter(o))
             .Select(o => o == null ? null : new Order
             {
@@ -79,7 +79,7 @@ internal class OrderImplementation : IOrder
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, $"Updating order with ID: {item.Id}");
 
-        var oldItem = DataSource.Orders.FirstOrDefault(o => o?.Id == item.Id);
+        var oldItem = DataSource.SaleInProduct.FirstOrDefault(o => o?.Id == item.Id);
         if (oldItem == null)
         {
             LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
@@ -87,8 +87,8 @@ internal class OrderImplementation : IOrder
             throw new IdNotFoundException(item.Id, "Order");
         }
 
-        int index = DataSource.Orders.IndexOf(oldItem);
-        DataSource.Orders[index] = item;
+        int index = DataSource.SaleInProduct.IndexOf(oldItem);
+        DataSource.SaleInProduct[index] = item;
 
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, $"Order with ID {item.Id} updated successfully.");
@@ -99,7 +99,7 @@ internal class OrderImplementation : IOrder
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, $"Attempting to delete order with ID: {id}");
 
-        var order = DataSource.Orders.FirstOrDefault(o => o?.Id == id);
+        var order = DataSource.SaleInProduct.FirstOrDefault(o => o?.Id == id);
         if (order == null)
         {
             LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
@@ -107,7 +107,7 @@ internal class OrderImplementation : IOrder
             throw new IdNotFoundException(id, "Order");
         }
 
-        DataSource.Orders.Remove(order);
+        DataSource.SaleInProduct.Remove(order);
 
         LogManager.Log(MethodBase.GetCurrentMethod().DeclaringType.FullName,
             MethodBase.GetCurrentMethod().Name, $"Order with ID {id} deleted successfully.");

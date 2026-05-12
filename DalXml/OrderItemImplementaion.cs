@@ -5,7 +5,7 @@ using tools;
 using Dal;
 namespace Dal;
 
-internal class OrderItemDalXML : IOrderItem
+internal class OrderItemImplementaion : IOrderItem
 {
     // שם הקובץ בתיקיית הנתונים
     readonly string s_orderItems_XML = "orderItems.xml";

@@ -6,7 +6,7 @@ using System.Reflection;
 using Dal;
 namespace Dal;
 
-internal class OrderDalXml : IOrder
+internal class OrderImplementaion : IOrder
 {
     // שם הקובץ כפי שמופיע בתיקיית הנתונים
     readonly string s_orders_xml = "orders.xml";
