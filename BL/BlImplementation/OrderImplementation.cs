@@ -1,5 +1,5 @@
 ﻿using BL.BlApi;
-using BL.BO;
+using BO;
 using System;
 using System.Collections.Generic;
 using System.Linq;

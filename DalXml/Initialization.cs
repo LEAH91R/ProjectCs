@@ -45,10 +45,10 @@ public static class Initialization
         {
             s_dal!.Customer.Create(new Customer
             {
-                CustomerName = names[i],
-                Address = cities[i],
-                PhoneNumber = $"058578665{i}",
-                IsClubMember = i % 2 == 0
+                CustName = names[i],
+                CustAddress = cities[i],
+                CustPhone = $"058578665{i}"
+              
             });
         }
     }
@@ -116,20 +116,20 @@ public static class Initialization
         foreach (var name in SOCKSNames)
             s_dal.Product?.Create(new()
             {
-                Name = name,
-                Category = Categories.SOCKS,
-                Price = 400,
-                Quantity = 30
+                ProdName = name,
+                category = Categories.SOCKS,
+                ProdPrice = 400,
+                QuantityInStock = 30
             });
 
 
         foreach (var name in SHIRTSNames)
             s_dal.Product?.Create(new()
             {
-                Name = name,
-                Category = Categories.SHIRTS,
-                Price = 300,
-                Quantity = 20
+                ProdName = name,
+                category = Categories.SHIRTS,
+                ProdPrice = 300,
+                QuantityInStock = 20
             });
 
 
@@ -137,30 +137,30 @@ public static class Initialization
             s_dal.Product?.Create(new()
             {
                
-                Name = name,
-                Category = Categories.PAJAMS,
-                Price = 60,
-                Quantity = 14
+                ProdName = name,
+                category = Categories.PAJAMS,
+                ProdPrice = 60,
+                QuantityInStock = 14
             });
 
 
         foreach (var name in PANTSNames)
             s_dal.Product?.Create(new()
             {
-                Name = name,
-                Category = Categories.PANTS,
-                Price = 200,
-                Quantity = 16
+                ProdName = name,
+                category = Categories.PANTS,
+                ProdPrice = 200,
+                QuantityInStock = 16
             });
 
 
         foreach (var name in DRESSESNames)
             s_dal.Product?.Create(new()
             {
-                Name = name,
-                Category = Categories.DRESSES,
-                Price = 100,
-                Quantity = 15
+                ProdName = name,
+                category = Categories.DRESSES,
+                ProdPrice = 100,
+                QuantityInStock = 15
             });
 
 
@@ -175,12 +175,12 @@ public static class Initialization
         {
             s_dal.Sale.Create(new Sale
             {
-                ProductId = productsList[i]!.Id,
-                RequiredQuantity = i + 1,
-                DiscountedPrice = productsList[i]!.Price * 0.8,
-                IsForClubMembers = i % 2 == 0,
-                SaleStartDate = DateTime.Now,
-                SaleEndDate = DateTime.Now.AddMonths(1)
+                ProdId = productsList[i]!.ProdId,
+                QuantitySale = i + 1,
+               SalePrice = productsList[i]!.ProdPrice * 0.8,
+                IsClub = i % 2 == 0,
+                StartDate = DateTime.Now,
+                EndDate = DateTime.Now.AddMonths(1)
             });
         }
     }
