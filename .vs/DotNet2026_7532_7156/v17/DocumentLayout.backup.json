@@ -237,7 +237,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
@@ -281,17 +281,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T14:18:09.715Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx",
-              "RelativeDocumentMoniker": "UI\\Form1.resx",
-              "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx",
-              "RelativeToolTip": "UI\\Form1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-10T14:18:09.693Z"
             },
             {
               "$type": "Document",
@@ -392,6 +381,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T14:03:02.094Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx",
+              "RelativeDocumentMoniker": "UI\\Form1.resx",
+              "ToolTip": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\UI\\Form1.resx",
+              "RelativeToolTip": "UI\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-10T14:18:09.693Z"
             },
             {
               "$type": "Bookmark",

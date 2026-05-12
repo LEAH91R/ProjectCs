@@ -46,23 +46,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suser\\.nuget\\packages\\": {},
+    "C:\\Users\\huser\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
+      "projectUniqueName": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj",
       "projectName": "DalTest",
-      "projectPath": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalTest\\DalTest.csproj",
-      "packagesPath": "C:\\Users\\suser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalTest\\obj\\",
+      "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\DalTest.csproj",
+      "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\suser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -77,11 +77,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalFacade\\DalFacade.csproj"
+            "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalFacade\\DalFacade.csproj"
             },
-            "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj": {
-              "projectPath": "C:\\Users\\suser\\Documents\\GitHub\\ProjectCs\\DalList\\DalList.csproj"
+            "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj": {
+              "projectPath": "C:\\Users\\huser\\Downloads\\ProjectCs-main\\ProjectCs-main\\DalList\\DalList.csproj"
             }
           }
         }
